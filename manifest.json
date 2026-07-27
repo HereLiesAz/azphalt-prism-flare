@@ -1,0 +1,21 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.prism-flare",
+  "name": "Prism Flare",
+  "version": "1.0.0",
+  "kind": "asset",
+  "license": "LicenseRef-Proprietary",
+  "compat": ">=0.1",
+  "description": "A rotating spectral flare sweeping from a fixed hotspot — a holographic prism streak that continuously rotates, so every second of footage catches a different rainbow glint automatically.",
+  "author": "HereLiesAz",
+  "targetApps": ["com.hereliesaz.guillotine"],
+  "assets": [
+    {
+      "type": "shader",
+      "path": "assets/prism-flare.fs",
+      "ui": "ui/panel.json",
+      "params": { "format": "isf" },
+      "tags": ["shader", "stylize", "prism", "holographic", "y2k", "one-click"]
+    }
+  ]
+}
